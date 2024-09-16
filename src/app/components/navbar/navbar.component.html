@@ -1,0 +1,20 @@
+<nav class="navbar fixed-top navbar-expand-lg">
+  <div class="container-fluid">
+    <div class="clivet-logo">
+      <h1>CLIVET <i class="fa-solid fa-paw fa-beat"></i></h1>
+      <h3>O médico do seu bichano</h3>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item px-2"><a class="nav-link" [routerLink]="['']"><i class="fa-solid fa-house fa-lg"></i><br>Home</a></li>
+        <li class="nav-item px-2"><a class="nav-link" [routerLink]="['/marcacoes']"><i class="fa-solid fa-calendar fa-lg"></i><br>Marcações</a></li>
+        <li class="nav-item px-2"><a class="nav-link" [routerLink]="['/animais']"><i class="fa-solid fa-paw fa-lg"></i><br>Animais</a></li>
+        <li class="nav-item px-2"><a class="nav-link" [routerLink]="['/tutores']"><i class="fa-solid fa-user fa-lg"></i><br>Tutores</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

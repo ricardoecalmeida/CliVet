@@ -1,0 +1,199 @@
+:root {
+  --maincolor: #586F7C;
+  --fadedcolor: #DDE2E4;
+  --fadedred: #D3494E;
+}
+
+/* FONTS */
+
+.titillium-web-extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.titillium-web-light {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titillium-web-semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titillium-web-black {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.titillium-web-light-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.titillium-web-regular-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.titillium-web-bold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* APLICAR A MESMA FONT EM TODO O LADO */
+
+* {
+  font-family: Titillium Web;
+}
+
+/* NAVBAR */
+
+.navbar {
+  position: fixed;
+  background-color: var(--fadedcolor);
+  font-family: Titillium Web;
+  font-size: 9pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  height: 96px;
+}
+
+/* NAVBAR: HAMBURGUER */
+
+@media (max-width: 768px) {
+  .navbar-collapse.show {
+    background-color: var(--fadedcolor);
+    border-radius: 0px 0px 16px 16px;
+    text-align: center;
+    z-index: 9999;
+  }
+}
+
+/* LOGO DA CLÍNICA */
+
+.clivet-logo {
+  margin-left: 64px;
+}
+
+/* CENTRAR HORIZONTAL E VERTICALMENTE OS ELEMENTOS DENTRO DO CONTAINER */
+
+.container-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+/* LISTAS */
+#animais,
+#marcacoes,
+#tutores {
+  padding-top: 48px;
+}
+
+/* FORMATAÇÃO DE TEXTO */
+
+.title {
+  margin-top: 128px;
+  color: var(--maincolor);
+  font-size: 20pt;
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Titillium Web;
+  color: var(--maincolor);
+}
+
+h1 {
+  font-size: 32pt;
+  font-weight: 900;
+  text-align: center;
+}
+
+h2 {
+  color: var(--fadedcolor);
+  background-image: linear-gradient(to right, var(--maincolor), var(--fadedcolor), white);
+  padding: 32px;
+  margin-top: 64px;
+  font-size: 11pt;
+  font-weight: 600;
+  letter-spacing: 2pt;
+  text-transform: uppercase;
+  border-radius: 64px;
+}
+
+h3 {
+  font-size: 13pt;
+  text-align: center;
+}
+
+/* TABELAS */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+th {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 9pt;
+}
+
+td {
+  width: 12.5%;
+  text-align: center;
+  font-size: 10pt;
+  vertical-align: middle;
+}
+
+li {
+  text-align: center;
+}
+
+.container-center {
+  text-align: center;
+  min-width: 250px;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 9pt;
+}

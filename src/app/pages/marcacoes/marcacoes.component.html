@@ -1,0 +1,15 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div id="marcacoes">
+    <h2><i class="fa-regular fa-calendar"></i> Marcações</h2>
+  </div>
+
+  <div>
+    <app-marcacoes-lista />
+  </div>
+
+  <div class="text-center">
+    <button class="btn btn-outline-secondary btn-lg" [routerLink]="['/nova-marcacao']" type="button">
+      <i class="fa-regular fa-calendar-plus"></i> Adicionar marcação</button>
+  </div>
+</div>

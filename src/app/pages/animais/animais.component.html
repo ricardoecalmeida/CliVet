@@ -1,0 +1,15 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div id="animais">
+    <h2><i class="fa-solid fa-dog"></i> Animais</h2>
+  </div>
+
+  <div>
+    <app-animais-lista />
+  </div>
+
+  <div class="text-center">
+    <button class="btn  btn-outline-secondary btn-lg" [routerLink]="['/novo-animal']" type="button">
+      <i class="fa-solid fa-paw"></i> Adicionar animal</button>
+  </div>
+</div>
