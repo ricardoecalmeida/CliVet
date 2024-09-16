@@ -23274,3 +23274,11 @@ node_modules/zone.js/LICENSE.wrapped
 node_modules/zone.js/package.json
 node_modules/zone.js/README.md
 node_modules/zone.js/zone.d.ts
+.DS_Store
+src/.DS_Store
+src/app/.DS_Store
+src/app/components/.DS_Store
+.DS_Store
+src/.DS_Store
+src/app/.DS_Store
+src/app/components/.DS_Store
